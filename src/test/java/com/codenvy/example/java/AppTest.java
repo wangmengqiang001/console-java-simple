@@ -23,7 +23,10 @@ public class AppTest
      * @return the suite of tests being tested
      */
     public static Test suite() {
-        return new TestSuite(AppTest.class);
+
+TestSuite suit =         new TestSuite(AppTest.class);
+
+return suit;
     }
 
     /**
@@ -32,4 +35,14 @@ public class AppTest
     public void testApp() {
         assertTrue(true);
     }
+    
+     public void testAppFailed() {
+        assertTrue(false);
+    }
+ 
+      public void testAppHello() {
+          System.out.println("Hello world");
+        assertTrue(Math.random() > 0.7);
+    }
+    
 }
