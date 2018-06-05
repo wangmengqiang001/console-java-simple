@@ -3,6 +3,7 @@ package com.codenvy.example.java;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import  junit.framework.Assert;
 
 /**
  * Unit test for simple App.
@@ -30,6 +31,6 @@ public class AppTest
      * Rigourous Test :-)
      */
     public void testApp() {
-        assertTrue(true);
+        Assert.assertTrue(true);
     }
 }
