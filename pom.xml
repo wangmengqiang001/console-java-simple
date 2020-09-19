@@ -23,7 +23,7 @@
          <!-- https://mvnrepository.com/artifact/org.springframework/spring-webflux -->
 <dependency>
     <groupId>org.springframework</groupId>
-    <artifactId>spring-webflux</artifactId>
+    <artifactId>spring-web</artifactId>
     <version>5.2.8.RELEASE</version>
 </dependency>
 
